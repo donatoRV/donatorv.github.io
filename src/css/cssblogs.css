@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,900&display=swap');
+body{
+    max-width: 850px;
+    margin: auto;
+}
+
+p{
+    text-align: justify;
+}
+
+hr{
+    color: white;
+    margin-top: 10px;
+}
+
+header {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+header h1 {
+    font-size: 300%;
+}
+
+header nav a{
+    padding: 0.5em;
+    text-decoration: none;
+}
+
+header h1 span{
+    color: red;
+}
+
+
+#blog img{
+    width: 55%;
+}
+
+
+
+@media (max-width:1000px)  {
+    body {
+        font-size: 80%;
+        padding: 3%;
+    }
+}
+
+@media (max-width:1600px)  {
+    body {
+        font-size: 90%;
+        padding: 1%;
+    }
+}
+
+footer {
+    display: block;
+}
+.footer_bottom{
+    color: #bbbbbb;
+    font-size: 12px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 50px; 
+    text-align: center;
+    padding: 1px 5px;
+    margin-top: 1%;
+}
+.footer_bottom a{
+    color: #bbbbbb;
+    transition: all 0.5s ease;
+}
+.footer_bottom a:hover{
+    color: #6e6e6e;
+    transition: all 0.5s ease;
+}
+@media screen and (max-width: 768px){
+    .footer_bottom{
+        font-size: 8px;
+        padding: 20px 10px;
+    }
+}
